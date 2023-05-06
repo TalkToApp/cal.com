@@ -35,6 +35,12 @@ module.exports = {
       },
     ],
     "unused-imports/no-unused-imports": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
   },
   overrides: [
     {
@@ -53,6 +59,12 @@ module.exports = {
             disallowTypeAnnotations: false,
           },
         ],
+        "prettier/prettier": [
+          "error",
+          {
+            endOfLine: "auto",
+          },
+        ],
       },
       overrides: [
         {
@@ -60,6 +72,12 @@ module.exports = {
           rules: {
             "@typescript-eslint/no-unused-vars": "off",
             "no-undef": "off",
+            "prettier/prettier": [
+              "error",
+              {
+                endOfLine: "auto",
+              },
+            ],
           },
         },
       ],
@@ -69,6 +87,12 @@ module.exports = {
       rules: {
         "@typescript-eslint/no-unused-vars": "off",
         "no-undef": "off",
+        "prettier/prettier": [
+          "error",
+          {
+            endOfLine: "auto",
+          },
+        ],
       },
     },
   ],
