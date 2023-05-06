@@ -11,24 +11,24 @@ export const WEBAPP_URL =
   "http://localhost:3000";
 /** @deprecated use `WEBAPP_URL` */
 export const BASE_URL = WEBAPP_URL;
-export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://cal.com";
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "Cal.com";
-export const SUPPORT_MAIL_ADDRESS = process.env.NEXT_PUBLIC_SUPPORT_MAIL_ADDRESS || "help@cal.com";
-export const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || "Cal.com, Inc.";
-export const SENDER_ID = process.env.NEXT_PUBLIC_SENDER_ID || "Cal";
-export const SENDER_NAME = process.env.NEXT_PUBLIC_SENDGRID_SENDER_NAME || "Cal.com";
+export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://talktoapp.io";
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "Talktoapp.io";
+export const SUPPORT_MAIL_ADDRESS = process.env.NEXT_PUBLIC_SUPPORT_MAIL_ADDRESS || "help@talktoapp.io";
+export const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || "talktoapp.io, Inc.";
+export const SENDER_ID = process.env.NEXT_PUBLIC_SENDER_ID || "Talktoapp";
+export const SENDER_NAME = process.env.NEXT_PUBLIC_SENDGRID_SENDER_NAME || "talktoapp.io";
 
 // This is the URL from which all Cal Links and their assets are served.
-// Use website URL to make links shorter(cal.com and not app.cal.com)
+// Use website URL to make links shorter(talktoapp.io and not app.talktoapp.io)
 // As website isn't setup for preview environments, use the webapp url instead
 export const CAL_URL = new URL(WEBAPP_URL).hostname.endsWith(".vercel.app") ? WEBAPP_URL : WEBSITE_URL;
 
 export const CONSOLE_URL =
   new URL(WEBAPP_URL).hostname.endsWith(".cal.dev") || process.env.NODE_ENV !== "production"
     ? `https://console.cal.dev`
-    : `https://console.cal.com`;
+    : `https://console.talktoapp.io`;
 export const IS_SELF_HOSTED = !(
-  new URL(WEBAPP_URL).hostname.endsWith(".cal.dev") || new URL(WEBAPP_URL).hostname.endsWith(".cal.com")
+  new URL(WEBAPP_URL).hostname.endsWith(".cal.dev") || new URL(WEBAPP_URL).hostname.endsWith(".talktoapp.io")
 );
 export const EMBED_LIB_URL = process.env.NEXT_PUBLIC_EMBED_LIB_URL || `${WEBAPP_URL}/embed/embed.js`;
 export const IS_PRODUCTION = process.env.NODE_ENV === "production";
@@ -40,12 +40,12 @@ export const HOSTED_CAL_FEATURES = process.env.NEXT_PUBLIC_HOSTED_CAL_FEATURES |
 export const NEXT_PUBLIC_BASE_URL = process.env.NEXT_PUBLIC_WEBAPP_URL || `https://${process.env.VERCEL_URL}`;
 export const LOGO = "/calcom-logo-white-word.svg";
 export const LOGO_ICON = "/cal-com-icon-white.svg";
-export const ROADMAP = "https://cal.com/roadmap";
-export const DESKTOP_APP_LINK = "https://cal.com/download";
-export const JOIN_SLACK = "https://cal.com/slack";
+export const ROADMAP = "https://talktoapp.io/roadmap";
+export const DESKTOP_APP_LINK = "https://talktoapp.io/download";
+export const JOIN_SLACK = "https://talktoapp.io/slack";
 export const POWERED_BY_URL = `${WEBSITE_URL}/?utm_source=embed&utm_medium=powered-by-button`;
-export const DOCS_URL = "https://cal.com/docs";
-export const DEVELOPER_DOCS = "https://developer.cal.com";
+export const DOCS_URL = "https://talktoapp.io/docs";
+export const DEVELOPER_DOCS = "https://developer.talktoapp.io";
 export const SEO_IMG_DEFAULT = `${WEBSITE_URL}/og-image.png`;
 // The Dynamic OG Image is passed through Next's Image API to further optimize it.
 // This results in a 80% smaller image 🤯. It is however important that for the query
