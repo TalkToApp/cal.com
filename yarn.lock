@@ -4878,8 +4878,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-<<<<<<< HEAD
-=======
 "@calcom/webex@workspace:packages/app-store/webex":
   version: 0.0.0-use.local
   resolution: "@calcom/webex@workspace:packages/app-store/webex"
@@ -4974,7 +4972,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "@calcom/whatsapp@workspace:packages/app-store/whatsapp":
   version: 0.0.0-use.local
   resolution: "@calcom/whatsapp@workspace:packages/app-store/whatsapp"
@@ -7671,11 +7668,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-"@lexical/clipboard@npm:0.5.0":
-  version: 0.5.0
-  resolution: "@lexical/clipboard@npm:0.5.0"
-=======
 "@juggle/resize-observer@npm:^3.4.0":
   version: 3.4.0
   resolution: "@juggle/resize-observer@npm:3.4.0"
@@ -7686,7 +7678,6 @@ __metadata:
 "@lexical/clipboard@npm:0.9.1":
   version: 0.9.1
   resolution: "@lexical/clipboard@npm:0.9.1"
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
   dependencies:
     "@lexical/html": 0.9.1
     "@lexical/list": 0.9.1
@@ -8481,8 +8472,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "@prisma/debug@npm:4.13.0":
   version: 4.13.0
   resolution: "@prisma/debug@npm:4.13.0"
@@ -8505,7 +8494,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "@prisma/engines-version@npm:4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a":
   version: 4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a
   resolution: "@prisma/engines-version@npm:4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a"
@@ -8520,8 +8508,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "@prisma/generator-helper@npm:^4.0.0":
   version: 4.14.0
   resolution: "@prisma/generator-helper@npm:4.14.0"
@@ -8546,7 +8532,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "@prisma/generator-helper@npm:~3.8.1":
   version: 3.8.1
   resolution: "@prisma/generator-helper@npm:3.8.1"
@@ -9824,8 +9809,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "@sentry-internal/tracing@npm:7.51.2":
   version: 7.51.2
   resolution: "@sentry-internal/tracing@npm:7.51.2"
@@ -9987,7 +9970,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "@shuding/opentype.js@npm:1.4.0-beta.0":
   version: 1.4.0-beta.0
   resolution: "@shuding/opentype.js@npm:1.4.0-beta.0"
@@ -18496,8 +18478,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "date-fns@npm:^2.29.1":
   version: 2.30.0
   resolution: "date-fns@npm:2.30.0"
@@ -18544,7 +18524,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "dayjs-business-days2@npm:1.1.0":
   version: 1.1.0
   resolution: "dayjs-business-days2@npm:1.1.0"
@@ -22560,8 +22539,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "fs-extra@npm:^7.0.1":
   version: 7.0.1
   resolution: "fs-extra@npm:7.0.1"
@@ -22584,7 +22561,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "fs-extra@npm:^9.0.0, fs-extra@npm:^9.0.1":
   version: 9.1.0
   resolution: "fs-extra@npm:9.1.0"
@@ -26217,8 +26193,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "joi@npm:^17.7.0":
   version: 17.9.2
   resolution: "joi@npm:17.9.2"
@@ -26239,7 +26213,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "jose@npm:4.12.0":
   version: 4.12.0
   resolution: "jose@npm:4.12.0"
@@ -27669,11 +27642,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-"lucide-react@npm:^0.130.0":
-  version: 0.130.1
-  resolution: "lucide-react@npm:0.130.1"
-=======
 "lucide-react@npm:^0.125.0":
   version: 0.125.0
   resolution: "lucide-react@npm:0.125.0"
@@ -27686,7 +27654,6 @@ __metadata:
 "lucide-react@npm:^0.171.0":
   version: 0.171.0
   resolution: "lucide-react@npm:0.171.0"
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
   checksum: 768ffe368c52a518ee339203d86ff4479989ab4d79c0716f721900c4bb7392ef6ff7a14807f6a685abd74d27f4c1778170bff77a0ab4c3e06c17944b557d8300
@@ -31506,8 +31473,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "playwright-core@npm:1.33.0":
   version: 1.33.0
   resolution: "playwright-core@npm:1.33.0"
@@ -31528,7 +31493,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "pngjs@npm:^3.0.0, pngjs@npm:^3.3.0, pngjs@npm:^3.3.3":
   version: 3.4.0
   resolution: "pngjs@npm:3.4.0"
@@ -31893,12 +31857,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-"preact@npm:^10.6.3":
-  version: 10.11.3
-  resolution: "preact@npm:10.11.3"
-  checksum: 9387115aa0581e8226309e6456e9856f17dfc0e3d3e63f774de80f3d462a882ba7c60914c05942cb51d51e23e120dcfe904b8d392d46f29ad15802941fe7a367
-=======
 "preferred-pm@npm:^3.0.0":
   version: 3.0.3
   resolution: "preferred-pm@npm:3.0.3"
@@ -31908,7 +31866,6 @@ __metadata:
     path-exists: ^4.0.0
     which-pm: 2.0.0
   checksum: 0de0948cb6ae22213f2ad7868032d89f1e1443d9caabc22ceeb9d284f19d359d65b67fab178f4db5c8c6ca6ae34642bdc72730b70ab1899ea158e2677a88a6d0
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
   languageName: node
   linkType: hard
 
@@ -32885,8 +32842,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "react-fast-marquee@npm:^1.3.5":
   version: 1.5.2
   resolution: "react-fast-marquee@npm:1.5.2"
@@ -32897,7 +32852,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "react-feather@npm:^2.0.10":
   version: 2.0.10
   resolution: "react-feather@npm:2.0.10"
@@ -34586,8 +34540,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "rxjs@npm:^7.0.0, rxjs@npm:^7.8.0":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
@@ -34597,7 +34549,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "rxjs@npm:^7.5.5":
   version: 7.5.5
   resolution: "rxjs@npm:7.5.5"
@@ -35594,8 +35545,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "spawn-command@npm:^0.0.2-1":
   version: 0.0.2
   resolution: "spawn-command@npm:0.0.2"
@@ -35613,7 +35562,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "spdx-correct@npm:^3.0.0":
   version: 3.1.1
   resolution: "spdx-correct@npm:3.1.1"
@@ -36975,8 +36923,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "term-size@npm:^2.1.0":
   version: 2.2.1
   resolution: "term-size@npm:2.2.1"
@@ -36991,7 +36937,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 175fc4fcf3122f78ef3f27618cfeedec57016b4c
 "terminal-link@npm:^2.0.0":
   version: 2.1.1
   resolution: "terminal-link@npm:2.1.1"
